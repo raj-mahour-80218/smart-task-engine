@@ -1,0 +1,80 @@
+.form-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  margin: 8px 0 15px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.task-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.task-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  transition: 0.2s;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+}
+
+.badge {
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.status {
+  background: #e0f2fe;
+}
+
+.priority {
+  background: #fef3c7;
+}
+
+.error {
+  color: red;
+}
+
+.modal-overlay {
+  position: fixed;
+  top:0; left:0;
+  width:100%; height:100%;
+  background: rgba(0,0,0,0.4);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.modal {
+  background:white;
+  padding:20px;
+  border-radius:10px;
+}

@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #fff;
+  height: 100vh;
+  transition: 0.3s;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar .item {
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.main {
+  flex: 1;
+  transition: 0.3s;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.menu-btn {
+  margin-right: 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #fff;
+}
